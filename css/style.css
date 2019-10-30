@@ -79,15 +79,22 @@ body {
     left: 20px;
     top:-50px;
     margin-bottom: -50px;
+    -webkit-box-shadow: 3px 4px 22px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 4px 22px -7px rgba(0,0,0,0.75);
+box-shadow: 3px 4px 22px -7px rgba(0,0,0,0.75);
 }
 .btn-lg {
     background: #1d5170;;
     border: 1px solid rgba(255,255,255,0.5);
+    color: white;
 
 }
 .btn-lg:hover {
     background: #0083b0;
     border: 1px solid rgba(255,255,255,0.5);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .card {
@@ -109,6 +116,9 @@ body {
 
 #contactus {
     color: white;
+}
+#contactus .card {
+ background:#09779F;
 }
 
 #contactus ul {
