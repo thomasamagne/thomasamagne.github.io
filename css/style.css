@@ -28,8 +28,23 @@ body {
     font-size: 1.8rem;
 }
 
+@media (max-width: 487px) { 
+    #pulselogoname {
+        height: 100px;
+    }
+    #ecgpath {
+        height: 87px;
+        display: block;
+        position: absolute;
+        top:13px;
+        
+ }
+ #slogan {
+    font-size: 0.7em;
+}
+}
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) and (min-width: 489px) { 
     #pulselogoname {
         height: 150px;
     }
@@ -53,6 +68,7 @@ body {
         
  }
 }
+
 
 
 
