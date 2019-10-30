@@ -28,26 +28,34 @@ body {
     font-size: 1.8rem;
 }
 
-#title img {
-    height:168px;
-    width:500px;
+
+@media (max-width: 576px) { 
+    #pulselogoname {
+        height: 150px;
+    }
+    #ecgpath {
+        height: 130px;
+        display: block;
+        position: absolute;
+        top:18px;
+        
+ }
 }
-/* #biglogo {
-    position: relative;
-
-} */
-/* #pulselogoname {
-    position: relative;
-} */
-
-
-#ecgpath {
-    display: block;
-    position: absolute;
-    top: 8px;
-    
-    
+@media (min-width: 576px) { 
+    #pulselogoname {
+        height: 200px;
+    }
+    #ecgpath {
+        height: 174px;
+        display: block;
+        position: absolute;
+        top:25px;
+        
+ }
 }
+
+
+
 .ecgpath {
     clip-path: polygon(-5% 0, 0 0, 0 100%, -5% 100%);
 }
