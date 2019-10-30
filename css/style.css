@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Raleway|Roboto&display=swap');
+
+
+body {
+    background-image:url(pulsewebbg.png);
+    font-family: "Raleway"
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.5)!important;
+    color: white!important;
+}
+
+.navbar-brand img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-brand {
+    font-family: "Orbitron";
+}
+
+.navlink {
+    color: white!important;
+}
+#title {
+    color: white;
+    font-size: 1.8rem;
+}
+
+#title img {
+    height:168px;
+    width:500px;
+}
+/* #biglogo {
+    position: relative;
+
+} */
+/* #pulselogoname {
+    position: relative;
+} */
+
+
+#ecgpath {
+    display: block;
+    position: absolute;
+    top: 8px;
+    
+    
+}
+.ecgpath {
+    clip-path: polygon(-5% 0, 0 0, 0 100%, -5% 100%);
+}
+
+  .animate {
+    clip-path: polygon(100% 0, 105% 0, 105% 100%, 100% 100%);
+    transition: 4s;
+  }
+
+.serviceicon {
+    display: inline-block;
+    background: #1d5170;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 5em;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    left: 20px;
+    top:-50px;
+    margin-bottom: -50px;
+}
+.btn-lg {
+    background: #1d5170;;
+    border: 1px solid rgba(255,255,255,0.5);
+
+}
+.btn-lg:hover {
+    background: #0083b0;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.card {
+    border: none;
+}
+
+.middle .card{
+    background-color: #09779f;
+    color: white;
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+
+#services {
+    background:rgba(255,255,255,0.5)
+}
+
+#contactus {
+    color: white;
+}
+
+#contactus ul {
+    list-style-type: none;
+    padding-left:0px;
+}
+
+#footer {
+    background:rgba(0,0,0,0.5);
+    height: 45px;
+    color: white;
+}
